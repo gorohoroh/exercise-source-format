@@ -1,0 +1,8 @@
+{
+  "environment": {
+    "language": "C#",
+    "framework": "netcoreapp3.1",
+    "language_version": "7.0"
+  },
+  "show_suggested_solution_after_attempts": 3
+}
