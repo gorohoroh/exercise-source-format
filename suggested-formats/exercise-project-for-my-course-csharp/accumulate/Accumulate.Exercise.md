@@ -1,4 +1,9 @@
-# Instructions
+# Accumulate
+
+## Description
+(Description is optional. If an instructor wants to start right off with instruction(s), so be it.)
+
+## Instructions
 
 Implement the `accumulate` operation, which, given a collection and an
 operation to perform on each element of the collection, returns a new
@@ -17,19 +22,14 @@ Your code should be able to produce the collection of squares:
 
 - 1, 4, 9, 16, 25
 
-Check out the test suite to see the expected function signature.
+### Restrictions
 
-## Restrictions
+(This header doesn't bear any particular meaning: it's just a subheader that should be rendered inside the instructions block.)
 
-Keep your hands off that collect/map/fmap/whatchamacallit functionality
-provided by your standard library!
-Solve this one yourself using other basic tools instead.
+Keep your hands off that `collect`/`map`/`fmap`/`whatchamacallit` functionality
+provided by your standard library! Solve this one yourself using other basic tools instead.
 
 To be more specific, you are not allowed to use any of the built-in [LINQ methods](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable?view=netcore-2.1#methods).
-
-## Laziness test
-
-Since `accumulate` returns an `IEnumerable`, it's execution is deferred until `ToList()` it is called on it, which is tested with the `Accumulate_is_lazy` method
 
 ## Hints
 

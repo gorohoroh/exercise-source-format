@@ -1,4 +1,6 @@
-# Instructions
+# Sum of multiples
+
+## Instructions
 
 Given a number, find the sum of all the unique multiples of particular numbers up to
 but not including that number.
@@ -8,7 +10,7 @@ we get 3, 5, 6, 9, 10, 12, 15, and 18.
 
 The sum of these multiples is 78.
 
-# Hints
+## Hints
 
 This exercise requires you to process a collection of data. You can simplify your code by using LINQ (Language Integrated Query).
 For more information, see [this page](https://docs.microsoft.com/en-us/dotnet/articles/standard/using-linq).
