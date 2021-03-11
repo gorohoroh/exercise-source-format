@@ -6,4 +6,7 @@ public static class Leap
     {
         throw new NotImplementedException("You need to implement this function.");
     }
+    
+    public static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
+
 }

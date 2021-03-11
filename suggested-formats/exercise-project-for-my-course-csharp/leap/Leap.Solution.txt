@@ -1,4 +1,4 @@
-public static class Leap
+public static class LeapSolution
 {
     public static bool IsLeapYear(int year)
     {
@@ -8,5 +8,5 @@ public static class Leap
         return false;
     }
 
-    private static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
+    public static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
 }
