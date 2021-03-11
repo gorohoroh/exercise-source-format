@@ -13,6 +13,24 @@ on every year that is evenly divisible by 4
 For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap
 year, but 2000 is.
 
+## Instruction 1
+Start by writing an extension method that checks if a given integer is leap:
+```csharp
+private static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
+```
+
+## Instruction 2
+Update body of the `IsLeapYear(int year)` method to check if the current year is evenly divisible by 400, 100, and 4, in this particular order: 
+```csharp
+public static bool IsLeapYear(int year)
+{
+    if (year.IsDivisibleBy(400)) return true;
+    if (year.IsDivisibleBy(100)) return false;
+    if (year.IsDivisibleBy(4)) return true;
+    return false;
+}
+```
+
 ## Notes
 
 Though our exercise adopts some very simple rules, there is more to
