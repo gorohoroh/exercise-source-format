@@ -1,4 +1,4 @@
-public static class LeapSolution
+public static class Leap
 {
     public static bool IsLeapYear(int year)
     {
