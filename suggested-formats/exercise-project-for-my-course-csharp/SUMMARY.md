@@ -1,4 +1,5 @@
 # Exercises
 
-* [Accumulate](accumulate/Accumulate.Instructions.md)
-* [Sum of Multiples](sum-of-multiples/SumOfMultiples.Instructions.md)
+* [Leap](leap/Leap.Exercise.md)
+* [Accumulate](accumulate/Accumulate.Exercise.md)
+* [Sum of Multiples](sum-of-multiples/SumOfMultiples.Exercise.md)
