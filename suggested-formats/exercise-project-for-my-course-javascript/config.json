@@ -1,0 +1,8 @@
+{
+  "environment": {
+    "language": "JavaScript",
+    "framework": "node12.16.1",
+    "language_version": "ES6"
+  },
+  "show_suggested_solution_after_attempts": 3
+}
