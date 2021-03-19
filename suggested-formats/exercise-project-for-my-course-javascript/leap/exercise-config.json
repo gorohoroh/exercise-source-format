@@ -1,0 +1,13 @@
+{
+  "files": {
+    "initial": [
+      "leap.initial.js"
+    ],
+    "solution": [
+      "leap.solution.js.txt"
+    ],
+    "tests": [
+      "leap.spec.js"
+    ]
+  }
+}
