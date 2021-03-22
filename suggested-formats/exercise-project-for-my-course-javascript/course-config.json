@@ -1,4 +1,8 @@
 {
+  "format": {
+    "name": "Alemira",
+    "version": "2021.1"
+  },
   "environment": {
     "language": "JavaScript",
     "framework": "node12.16.1",

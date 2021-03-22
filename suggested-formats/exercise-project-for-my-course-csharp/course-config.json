@@ -1,4 +1,8 @@
 {
+  "format": {
+    "name": "Alemira",
+    "version": "2021.1"
+  },
   "environment": {
     "language": "C#",
     "framework": "netcoreapp3.1",
