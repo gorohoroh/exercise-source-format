@@ -1,0 +1,14 @@
+{
+  "files": {
+    "initial": [
+      "Leap.Initial.cs"
+    ],
+    "solution": [
+      "Leap.Solution.cs.txt"
+    ],
+    "tests": [
+      "Leap.Tests.Instructions.1.cs",
+      "Leap.Tests.Instructions.2.cs"
+    ]
+  }
+}
