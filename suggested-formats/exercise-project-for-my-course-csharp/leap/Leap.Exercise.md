@@ -22,16 +22,19 @@ which you should pretend doesn't exist for the purposes of implementing this exe
 
 ## Instructions
 
-### Instruction 1
+### 1
 Start by writing an extension method that checks if a given integer is leap:
 ```csharp
 private static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
 ```
 
+#### Tests
+{{Leap.Tests.Instructions.1.cs}}
+
 #### Hint
 A hint that applies to instruction 1 can be added here.
 
-### Instruction 2
+### 2
 Update the body of the `IsLeapYear(int year)` method to check if the current year is evenly divisible by 400, 100, and 4, in this particular order: 
 ```csharp
 public static bool IsLeapYear(int year)
@@ -42,6 +45,9 @@ public static bool IsLeapYear(int year)
     return false;
 }
 ```
+
+#### Tests
+{{Leap.Tests.Instructions.1.cs}}
 
 #### Hint
 A hint that applies to instruction 2 can be added here.
