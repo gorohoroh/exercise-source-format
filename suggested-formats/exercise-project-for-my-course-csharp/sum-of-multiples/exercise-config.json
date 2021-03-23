@@ -1,0 +1,13 @@
+{
+  "files": {
+    "initial": [
+      "SumOfMultiples.Initial.cs"
+    ],
+    "solution": [
+      "SumOfMultiples.Solution.cs.txt"
+    ],
+    "tests": [
+      "SumOfMultiples.Tests.cs"
+    ]
+  }
+}

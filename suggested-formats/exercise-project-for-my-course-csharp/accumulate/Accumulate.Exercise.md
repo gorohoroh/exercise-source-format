@@ -1,10 +1,5 @@
 # Accumulate
 
-## Description
-(Description is optional. If an instructor wants to start right off with instruction(s), so be it.)
-
-## Instructions
-
 Implement the `accumulate` operation, which, given a collection and an
 operation to perform on each element of the collection, returns a new
 collection containing the result of applying that operation to each element of
@@ -31,6 +26,6 @@ provided by your standard library! Solve this one yourself using other basic too
 
 To be more specific, you are not allowed to use any of the built-in [LINQ methods](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable?view=netcore-2.1#methods).
 
-## Hints
-
+:::hint
 This exercise requires you to write an extension method. For more information, see [this page](https://msdn.microsoft.com/en-us//library/bb383977.aspx).
+:::

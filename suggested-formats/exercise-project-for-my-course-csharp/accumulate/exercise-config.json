@@ -1,0 +1,13 @@
+{
+  "files": {
+    "initial": [
+      "Accumulate.Initial.cs"
+    ],
+    "solution": [
+      "Accumulate.Solution.cs.txt"
+    ],
+    "tests": [
+      "Accumulate.Tests.cs"
+    ]
+  }
+}

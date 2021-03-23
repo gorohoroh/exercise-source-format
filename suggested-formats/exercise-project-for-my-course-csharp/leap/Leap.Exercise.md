@@ -1,6 +1,5 @@
 # Leap
 
-## Description
 Given a year, you will need to report if it is a leap year.
 
 The tricky thing here is that a leap year in the Gregorian calendar occurs:
@@ -28,11 +27,13 @@ Start by writing an extension method that checks if a given integer is leap:
 private static bool IsDivisibleBy(this int i, int divisor) => i % divisor == 0;
 ```
 
-#### Tests
-{{Leap.Tests.Instructions.1.cs}}
+:::tests
+Leap.Tests.Instructions.1.cs
+:::
 
-#### Hint
+:::hint
 A hint that applies to instruction 1 can be added here.
+:::
 
 ### 2
 Update the body of the `IsLeapYear(int year)` method to check if the current year is evenly divisible by 400, 100, and 4, in this particular order: 
@@ -46,8 +47,10 @@ public static bool IsLeapYear(int year)
 }
 ```
 
-#### Tests
-{{Leap.Tests.Instructions.1.cs}}
+:::tests
+Leap.Tests.Instructions.2.cs
+:::
 
-#### Hint
+:::hint
 A hint that applies to instruction 2 can be added here.
+:::
