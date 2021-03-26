@@ -8,14 +8,12 @@ Programmers don't like to repeat themselves. Programming is all about automating
 
 Still remember lists? Let's do a list of girls:
 
-{% filename %}python_intro.py{% endfilename %}
 ```python
 girls = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'You']
 ```
 
 We want to greet all of them by their name. We have the `hi` function to do that, so let's use it in a loop:
 
-{% filename %}python_intro.py{% endfilename %}
 ```python
 for name in girls:
 ```
@@ -24,7 +22,6 @@ The `for` statement behaves similarly to the `if` statement; code below both of 
 
 Here is the full code that will be in the file:
 
-{% filename %}python_intro.py{% endfilename %}
 ```python
 def hi(name):
     print('Hi ' + name + '!')
@@ -55,7 +52,6 @@ As you can see, everything you put inside a `for` statement with an indent will 
 
 You can also use `for` on numbers using the `range` function:
 
-{% filename %}python_intro.py{% endfilename %}
 ```python
 for i in range(1, 6):
     print(i)
