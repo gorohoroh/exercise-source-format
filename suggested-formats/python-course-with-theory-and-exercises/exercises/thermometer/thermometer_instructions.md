@@ -16,16 +16,14 @@ Here's what you'll need to do:
 ### 1
 Let's make our `thermometer` function do something. Instead of `pass`, add an `if` condition that prints "Too hot" if temperature is 30 degrees or higher.
 
-```python
-```
-
 :::tests
 thermometer_tests_1.py
 :::
 
 :::hint
 
-This is what your code is expected to be after this instruction:
+This is what your code is expected to look like after following this instruction:
+
 ```python
 def thermometer(temp):
     if temp >= 30:
