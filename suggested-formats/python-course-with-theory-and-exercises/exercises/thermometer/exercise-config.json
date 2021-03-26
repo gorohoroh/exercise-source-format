@@ -1,0 +1,13 @@
+{
+  "files": {
+    "initial": [
+      "thermometer_initial.py"
+    ],
+    "solution": [
+      "thermometer_solution.py.txt"
+    ],
+    "tests": [
+      "thermometer_tests_1.py"
+    ]
+  }
+}
