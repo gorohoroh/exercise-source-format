@@ -7,7 +7,7 @@
       "thermometer_solution.py.txt"
     ],
     "tests": [
-      "thermometer_tests_1.py"
+      "thermometer_tests_1.py", "thermometer_tests_2.py", "thermometer_tests_3.py", "thermometer_tests_4.py"
     ]
   }
 }

@@ -36,15 +36,56 @@ thermometer(25)
 
 
 ### 2
+Great! Your function can now scream if it feels it's too hot out there.
+
+Now, let's make it say something different about temperatures that feel OK. If temperature is less than 30 degrees but equal or more than 10 degrees, make the function print "It's comfortable out there".
+
+Make sure that the condition we've introduced in the previous step stays intact. Remember the `elif` keyword? It will help you out here.
+
+:::tests
+thermometer_tests_2.py
+:::
+
+:::hint
+This is what your code is expected to look like after following this instruction:
+
+```python
+def thermometer(temp):
+    if temp >= 30:
+        print("Too hot")
+    elif 10 <= temp < 30:
+        print("It's comfortable out there")
+
+
+thermometer(25)
+```
+:::
+
+### 3
 Blabla:
 
 ```python
 ```
 
 :::tests
-TODO
+thermometer_tests_3.py
 :::
 
 :::hint
 TODO
 :::
+
+### 4
+Blabla:
+
+```python
+```
+
+:::tests
+thermometer_tests_4.py
+:::
+
+:::hint
+TODO
+:::
+
