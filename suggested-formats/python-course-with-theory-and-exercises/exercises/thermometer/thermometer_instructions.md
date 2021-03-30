@@ -62,17 +62,16 @@ thermometer(25)
 :::
 
 ### 3
-Blabla:
+You're doing just fine, and your function can now report comfortable conditions!
 
-```python
-```
+When temperature falls to single digits, it starts to get chilly, doesn't it? If temperature is less than 10 degrees but equal or more than 0, make the function print "Fairly cold".
 
 :::tests
 thermometer_tests_3.py
 :::
 
 :::hint
-TODO
+You need to write another `elif` statement that's very similar to the one you've created in the previous step.
 :::
 
 ### 4
