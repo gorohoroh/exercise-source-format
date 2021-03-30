@@ -19,7 +19,7 @@ from thermometer_initial import thermometer
 
 
 class ThermometerTest3(unittest.TestCase):
-    def test_thermometer_calls_31_degrees_hot(self):
+    def test_thermometer_calls_fairly_cold(self):
         for temp in [0, 5, 9]:
             with contextlib.redirect_stdout(StringIO()) as temp_stdout:
                 thermometer(temp)
