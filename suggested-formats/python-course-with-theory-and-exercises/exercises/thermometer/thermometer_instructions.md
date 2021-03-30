@@ -75,16 +75,13 @@ You need to write another `elif` statement that's very similar to the one you've
 :::
 
 ### 4
-Blabla:
-
-```python
-```
+Finally, let's address temperatures below zero. If it's below zero, make our function scream "Freezing my ass off!".
 
 :::tests
 thermometer_tests_4.py
 :::
 
 :::hint
-TODO
+You could use another `elif` statement here, but using `else` would be shorter: if written correctly, the conditions above cover any positive temperatures and zero, which means `else` would cover all negative temperatures. 
 :::
 

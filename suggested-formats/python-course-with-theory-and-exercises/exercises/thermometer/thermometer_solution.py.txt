@@ -6,6 +6,6 @@ def thermometer(temp):
     elif 0 <= temp < 10:
         print("Fairly cold")
     else:
-        print("My ass is freezing!")
+        print("Freezing my ass off!")
 
 thermometer(237)
