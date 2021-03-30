@@ -1,6 +1,4 @@
 def thermometer(temp):
     pass
 
-
-thermometer(25)
-
+print(thermometer(25))

@@ -1,11 +1,11 @@
 def thermometer(temp):
     if temp >= 30:
-        print("Too hot")
+        return "Too hot"
     elif 10 <= temp < 30:
-        print("It's comfortable out there")
+        return "It's comfortable out there"
     elif 0 <= temp < 10:
-        print("Fairly cold")
+        return "Fairly cold"
     else:
-        print("Freezing my ass off!")
+        return "Freezing my ass off!"
 
-thermometer(237)
+print(thermometer(25))
