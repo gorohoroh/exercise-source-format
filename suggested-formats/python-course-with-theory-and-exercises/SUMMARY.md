@@ -17,13 +17,9 @@
 * [Save it!](content/python_introduction_saving.md)
 * [If … elif … else](content/python_introduction_if_elif_else.md)
 * [Your own functions!](content/python_introduction_your_own_functions.md)
-* [Practice: thermometer](exercises/thermometer/thermometer_instructions.md)
+* [Practice: Thermometer](exercises/thermometer/thermometer_instructions.md)
 * [Comments](content/python_introduction_comments.md)
 * [Loops](content/python_introduction_loops.md)
 * [Summary](content/python_introduction_summary.md)
 * [What is Django?](content/django.md)
-
-
-* [Leap](exercises/leap/leap_instructions.md)
-* [Exercise 2](exercises/something)
-* [Exercise 3](exercises/something_else)
+* [Practice: Leap](exercises/leap/leap_instructions.md)
