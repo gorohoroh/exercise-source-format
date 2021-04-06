@@ -8,6 +8,7 @@
     ],
     "tests": [
       "leap_tests.py"
-    ]
+    ],
+    "instructions": "leap_instructions.md"
   }
 }
