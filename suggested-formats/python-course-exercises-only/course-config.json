@@ -1,0 +1,12 @@
+{
+  "format": {
+    "name": "Alemira",
+    "version": "2021.1"
+  },
+  "environment": {
+    "language": "Python",
+    "framework": "python-3.9.2",
+    "language_version": "3.7"
+  },
+  "show_suggested_solution_after_attempts": 2
+}
