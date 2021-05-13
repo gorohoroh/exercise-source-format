@@ -1,0 +1,14 @@
+{
+  "files": {
+    "initial": [
+      "newexercise_initial.py"
+    ],
+    "solution": [
+      "newexercise_solution.py.txt"
+    ],
+    "tests": [
+      "newexercise_tests_1.py", "newexercise_tests_2.py"
+    ],
+    "instructions": "newexercise_instructions.md"
+  }
+}
